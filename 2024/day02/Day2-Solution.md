@@ -17,6 +17,7 @@ ls *.sh
 
 ## Listing only directories: using ls -d */
 ls -d */
+
 day01/  day10/  day19/  day28/  day37/  day46/  day55/  day64/  day73/  day82/
 day02/  day11/  day20/  day29/  day38/  day47/  day56/  day65/  day74/  day83/
 day03/  day12/  day21/  day30/  day39/  day48/  day57/  day66/  day75/  day84/
@@ -36,11 +37,13 @@ ubuntu@ip-172-31-18-90:~$
 
 ## Returning to the last working directory: using cd -
 cd -
+
 /home/ubuntu/90DaysOfDevOps/2024/day02
 ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$
 
 ## Changing directory one level up: using cd ..
 cd ..
+
 ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ cd ..
 ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024$
 
@@ -49,12 +52,14 @@ ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ cd ../..
 ubuntu@ip-172-31-18-90:~/90DaysOfDevOps$
 
 ## Creating a new directory 'newFolder': using mkdir newFolder
+
 ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ mkdir newFolder
 ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ ls
 Day2-Solution.md  newFolder  readme.md
 
 
 ## Creating a hidden directory '.NewFolder': using mkdir .NewFolder
+
 ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ mkdir .NewFolder
 ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ ls -la
 total 24
@@ -73,7 +78,8 @@ A  B  C  D  Day2-Solution.md  newFolder  readme.md
 
 
 ## Creating a new folder in a specific location '/home/user/Mydirectory': using mkdir /home/user/Mydirectory
-ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ sudo /home/user/Mydirectory -p
+
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ mkdir /home/user/Mydirectory
 ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ ls -l /home/user/
 total 4
 drwxr-xr-x 2 root root 4096 Oct  7 06:26 Mydirectory
