@@ -1,7 +1,10 @@
 Q1)Definition of devops
+
 DevOps is a culture and set of practices that aim to automate and integrate the processes between software development and IT operations.It emphasizes collaboration, communication, and automation to shorten the software development life cycle, enabling continuous delivery of high-quality software.
 
+
 Q2)What is Automation, Scaling, and Infrastructure
+
 Automation - Using technology to perform tasks without human intervention most common in CI/CD pipelines,Infrastructure as Code and monitoring.The benefits are as follows : Consistency,Speed and Scalability.
 
 Scaling - Adjusting resources based on demand there are two types of scaling vertical and horizontal scaling
@@ -16,6 +19,7 @@ Benefits are as follows : Flexibility, automation integration, and cost-effectiv
 
 
 Q3)Why DevOps is Important
+
 There are following reason why devops is important are as follows :
 1)Faster Time to Market: Enables quicker software releases and updates.
 2)Improved Collaboration: Breaks down silos between development and operations teams.
