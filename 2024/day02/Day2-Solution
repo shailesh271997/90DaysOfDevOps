@@ -1,0 +1,90 @@
+## Listing files and directories in long list format with extra information: using ls -l
+total 8
+-rw-rw-r-- 1 ubuntu ubuntu   89 Oct  7 05:53 Day2-Solution.md
+-rw-rw-r-- 1 ubuntu ubuntu 1412 Oct  7 05:29 readme.md
+## Listing all files (including hidden files): using ls -a
+.
+..
+Day2-Solution.md
+readme.md
+
+## Listing all .sh files: using ls *.sh
+ls *.sh
+
+## Listing files with index numbers (inodes): using ls -i
+263109 Day2-Solution.md
+262772 readme.md
+
+## Listing only directories: using ls -d */
+ls -d */
+
+day01/  day10/  day19/  day28/  day37/  day46/  day55/  day64/  day73/  day82/
+day02/  day11/  day20/  day29/  day38/  day47/  day56/  day65/  day74/  day83/
+day03/  day12/  day21/  day30/  day39/  day48/  day57/  day66/  day75/  day84/
+day04/  day13/  day22/  day31/  day40/  day49/  day58/  day67/  day76/  day85/
+day05/  day14/  day23/  day32/  day41/  day50/  day59/  day68/  day77/  day86/
+day06/  day15/  day24/  day33/  day42/  day51/  day60/  day69/  day78/  day87/
+day07/  day16/  day25/  day34/  day43/  day52/  day61/  day70/  day79/  day88/
+day08/  day17/  day26/  day35/  day44/  day53/  day62/  day71/  day80/  day89/
+day09/  day18/  day27/  day36/  day45/  day54/  day63/  day72/  day81/  day90/
+
+## Current Working Directory: using pwd
+/home/ubuntu/90DaysOfDevOps/2024/day02
+
+## Changing directory to the home directory: using cd ~
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ cd ~
+ubuntu@ip-172-31-18-90:~$
+
+## Returning to the last working directory: using cd -
+cd -
+
+/home/ubuntu/90DaysOfDevOps/2024/day02
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$
+
+## Changing directory one level up: using cd ..
+cd ..
+
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ cd ..
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024$
+
+## Changing directory two levels up: using cd ../.."
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ cd ../..
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps$
+
+## Creating a new directory 'newFolder': using mkdir newFolder
+
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ mkdir newFolder
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ ls
+Day2-Solution.md  newFolder  readme.md
+
+
+## Creating a hidden directory '.NewFolder': using mkdir .NewFolder
+
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ mkdir .NewFolder
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ ls -la
+total 24
+drwxrwxr-x  4 ubuntu ubuntu 4096 Oct  7 06:23 .
+drwxrwxr-x 92 ubuntu ubuntu 4096 Oct  7 05:29 ..
+drwxrwxr-x  2 ubuntu ubuntu 4096 Oct  7 06:23 .NewFolder
+-rw-rw-r--  1 ubuntu ubuntu 2503 Oct  7 06:23 Day2-Solution.md
+drwxrwxr-x  2 ubuntu ubuntu 4096 Oct  7 06:21 newFolder
+-rw-rw-r--  1 ubuntu ubuntu 1412 Oct  7 05:29 readme.md
+
+
+## Creating multiple directories A, B, C, D: using mkdir A B C D
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ mkdir A B C D
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ ls
+A  B  C  D  Day2-Solution.md  newFolder  readme.md
+
+
+## Creating a new folder in a specific location '/home/user/Mydirectory': using mkdir /home/user/Mydirectory
+
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ mkdir /home/user/Mydirectory
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ ls -l /home/user/
+total 4
+drwxr-xr-x 2 root root 4096 Oct  7 06:26 Mydirectory
+
+
+## Creating a nested directory A/B/C/D: using mkdir -p A/B/C/D
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02$ mkdir -p A/B/C/D
+ubuntu@ip-172-31-18-90:~/90DaysOfDevOps/2024/day02/A/B/C/D$
