@@ -1,0 +1,11 @@
+1)What is Shell Scripting in DevOps?
+Shell scripting refers to writing a series of commands for the shell (the command-line interface of an operating system) in a script file. In DevOps, shell scripting automates routine tasks, improves efficiency, and helps manage systems effectively. It allows DevOps engineers to automate deployments, manage configurations, perform system monitoring, and handle file manipulations, among other tasks.
+
+
+2)What is #!/bin/bash?
+The line #!/bin/bash is known as a "shebang." It tells the system that the script should be executed using the Bash shell. The #! indicates that the following path is the interpreter to be used. In this case, /bin/bash points to the Bash shell, which is a commonly used shell on Unix-like systems.
+
+
+
+3)Can we write #!/bin/sh as well?
+Yes, you can use #!/bin/sh as well. The /bin/sh refers to the Bourne shell, which is often a more basic shell than Bash. However, not all features of Bash are available in /bin/sh, so if your script uses Bash-specific features, it should start with #!/bin/bash.
