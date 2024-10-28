@@ -1,0 +1,8 @@
+What is DevOps ?
+DevOps is a culture and set of practices that combines software development (Dev) and IT operations (Ops) to enable faster, more reliable software releases. It emphasizes collaboration, automation, and continuous integration and deployment (CI/CD). DevOps aims to shorten development cycles, improve software quality, and enhance team communication.
+
+What is Automation, Scaling, and Infrastructure ?
+Automation involves using tools to perform repetitive tasks without human intervention, making processes faster and more consistent. Scaling refers to adjusting resources to handle varying loads, ensuring smooth performance during peak usage. Infrastructure is the foundational hardware, software, and network components that support applications and services, often managed in the cloud.
+
+Why DevOps is Important ?
+DevOps speeds up software delivery, improving customer satisfaction and competitiveness. It reduces manual errors and enhances reliability through automation and standardized processes. By fostering collaboration between development and operations teams, DevOps reduces bottlenecks and improves system resilience.
