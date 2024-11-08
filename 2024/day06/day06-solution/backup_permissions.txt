@@ -1,0 +1,8 @@
+# file: stickydir/
+# owner: ubuntu
+# group: ubuntu
+# flags: sst
+user::rwx
+group::rwx
+other::r-x
+
